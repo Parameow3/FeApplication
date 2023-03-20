@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_kon_khmer">Hello, Kon Khmer!</string>
+    <string name="search">Search ...</string>
+    <string name="continue_to">Continue to</string>
+    <string name="mobile_dev_course">Mobile Dev. Course</string>
+    <string name="_65_complete">65% Complete</string>
+    <string name="see_all">See All</string>
+    <string name="popular_courses">Popular Courses</string>
+    <string name="software_engineering">Software Engineering</string>
+    <string name="web_and_cloud_technologies">Web and Cloud Technologies</string>
+    <string name="computer_graphic">Computer Graphic</string>
+    <string name="all_courses">All Courses</string>
+    <string name="mobile_application_dev_i">Mobile Application Dev.I</string>
+    <string name="mad_des">Explore the power of android application development</string>
+    <string name="software_engineering_des">Explore power of the Software Development Lifecycle (SDLC) and software development</string>
+    <string name="project_practicum">Project Practicum</string>
+    <string name="practicum_des">Advanced hands-on course builds on the project managers previously acquired...</string>
+</resources>
