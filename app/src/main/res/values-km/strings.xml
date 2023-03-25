@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_kon_khmer">សួស្ដី, កូនខ្មែរ!</string>
+    <string name="search">ស្វែងរក ...</string>
+    <string name="continue_to">បន្តទៅកាន់វគ្គសិក្សា to</string>
+    <string name="mobile_dev_course">ការអភិវឌ្ឍន៍កម្មវីធី នៅលើទូរស័ព្ទ</string>
+    <string name="_65_complete">65% បានបញ្ចប់</string>
+    <string name="see_all">មើលទាំងអស់</string>
+    <string name="popular_courses">វគ្គសិក្សាពេញនិយម</string>
+    <string name="software_engineering">វិស្វករកម្មវិធី</string>
+    <string name="web_and_cloud_technologies">គេហទំព៍រ និងបច្ចេកវិទ្យាពពគ</string>
+    <string name="computer_graphic">កុំព្យូទ័រក្រាហ្វិក</string>
+    <string name="all_courses">វគ្គសិក្សាទាំងអស់</string>
+    <string name="mobile_application_dev_i">ការអភិវឌ្ឍន៍កម្មវីធី នៅលើទូរស័ព្ទ I</string>
+    <string name="mad_des">យល់ដឹងពី៎ឥទ្ធិពលនៃការអភិវឌ្ឍន៍កម្មវិធីនៅលើ Android</string>
+    <string name="software_engineering_des">យល់ដឹងពី៎ឥទ្ធិពលនៃវត្តជីវិតរបស់ការអភិវឌ្ឍន៍ software និងការអភិវឌ្ឍន៍ software</string>
+    <string name="project_practicum">គម្រងអនុវត្តផ្ទាល់</string>
+    <string name="practicum_des">Advanced hands-on course builds on the project managers previously acquired…</string>
+</resources>

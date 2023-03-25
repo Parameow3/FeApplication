@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/background_theme"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -21,7 +21,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:text="@string/hello_kon_khmer"
-                android:textColor="@color/black"
+                android:textColor="@color/text_on_background"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -131,7 +131,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/popular_courses"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text_on_background"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -140,7 +140,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/see_all"
                     android:textAlignment="textEnd"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text_on_background"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -241,7 +241,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/all_courses"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text_on_background"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -250,7 +250,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/see_all"
                     android:textAlignment="textEnd"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text_on_background"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -283,7 +283,7 @@
                         android:layout_width="236dp"
                         android:layout_height="wrap_content"
                         android:text="@string/mobile_application_dev_i"
-                        android:textColor="@color/black"
+                        android:textColor="@color/text_on_background"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -292,7 +292,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="@string/mad_des"
-                        android:textColor="@color/silver"
+                        android:textColor="@color/hint_on_background"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -307,7 +307,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_right_arrow_foreground" />
+                    android:src="@drawable/ic_right_arrow_foreground"
+                    android:background="@drawable/rounded_textedit"/>
 
             </LinearLayout>
 
@@ -340,7 +341,7 @@
                         android:layout_width="236dp"
                         android:layout_height="wrap_content"
                         android:text="@string/software_engineering"
-                        android:textColor="@color/black"
+                        android:textColor="@color/text_on_background"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -349,7 +350,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="@string/software_engineering_des"
-                        android:textColor="@color/silver"
+                        android:textColor="@color/hint_on_background"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -364,7 +365,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_right_arrow_foreground" />
+                    android:src="@drawable/ic_right_arrow_foreground"
+                    android:background="@drawable/rounded_textedit"/>
 
             </LinearLayout>
 
@@ -397,7 +399,7 @@
                         android:layout_width="236dp"
                         android:layout_height="wrap_content"
                         android:text="@string/project_practicum"
-                        android:textColor="@color/black"
+                        android:textColor="@color/text_on_background"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -406,7 +408,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="@string/practicum_des"
-                        android:textColor="@color/silver"
+                        android:textColor="@color/hint_on_background"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -421,7 +423,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_right_arrow_foreground" />
+                    android:src="@drawable/ic_right_arrow_foreground"
+                    android:background="@drawable/rounded_textedit"/>
 
             </LinearLayout>
 
@@ -454,7 +457,7 @@
                         android:layout_width="236dp"
                         android:layout_height="wrap_content"
                         android:text="@string/mobile_application_dev_i"
-                        android:textColor="@color/black"
+                        android:textColor="@color/text_on_background"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -463,7 +466,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="@string/mad_des"
-                        android:textColor="@color/silver"
+                        android:textColor="@color/hint_on_background"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -478,7 +481,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_right_arrow_foreground" />
+                    android:src="@drawable/ic_right_arrow_foreground"
+                    android:background="@drawable/rounded_textedit"/>
 
             </LinearLayout>
         </LinearLayout>
