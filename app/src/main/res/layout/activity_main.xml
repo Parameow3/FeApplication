@@ -307,8 +307,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_right_arrow_foreground"
-                    android:background="@drawable/rounded_textedit"/>
+                    android:background="@drawable/rounded_textedit"
+                    android:src="@drawable/ic_right_arrow_foreground" />
 
             </LinearLayout>
 
@@ -365,8 +365,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_right_arrow_foreground"
-                    android:background="@drawable/rounded_textedit"/>
+                    android:background="@drawable/rounded_textedit"
+                    android:src="@drawable/ic_right_arrow_foreground" />
 
             </LinearLayout>
 
@@ -423,8 +423,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_right_arrow_foreground"
-                    android:background="@drawable/rounded_textedit"/>
+                    android:background="@drawable/rounded_textedit"
+                    android:src="@drawable/ic_right_arrow_foreground" />
 
             </LinearLayout>
 
@@ -481,8 +481,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_right_arrow_foreground"
-                    android:background="@drawable/rounded_textedit"/>
+                    android:background="@drawable/rounded_textedit"
+                    android:src="@drawable/ic_right_arrow_foreground" />
 
             </LinearLayout>
         </LinearLayout>
