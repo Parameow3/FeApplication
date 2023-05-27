@@ -44,7 +44,8 @@
             android:drawableStart="@drawable/ic_search_foreground"
             android:hint="@string/search"
             android:padding="8dp"
-            android:textColorHint="#837E7E" />
+            android:textColorHint="#837E7E"
+            android:textColor="@color/black"/>
     </LinearLayout>
 
     <ScrollView

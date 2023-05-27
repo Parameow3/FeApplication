@@ -16,4 +16,16 @@
     <string name="software_engineering_des">Explore power of the Software Development Lifecycle (SDLC) and software development</string>
     <string name="project_practicum">Project Practicum</string>
     <string name="practicum_des">Advanced hands-on course builds on the project managers previously acquired…</string>
+    <string name="faculty_of_engineering">Faculty of Engineering</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="more_login_options">More Login Options</string>
+    <string name="not_now">Not Now</string>
+    <string name="tan_bunchhay">Tan Bunchhay</string>
+    <string name="major">Major</string>
+    <string name="it_engineering">IT Engineering</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="_2820_tan_bunchha_rupp_edu_kh">2820.tan.bunchha@rupp.edu.kh</string>
 </resources>
