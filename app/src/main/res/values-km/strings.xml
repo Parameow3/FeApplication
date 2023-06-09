@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">My Application</string>
 
+    <!--  Main Menu  -->
+    <string name="home">Home</string>
+    <string name="course">Course</string>
+    <string name="chat">Chat</string>
+    <string name="account">Account</string>
+    <string name="more">More</string>
+
     <string name="hello_kon_khmer">សួស្ដី, កូនខ្មែរ!</string>
     <string name="search">ស្វែងរក ...</string>
     <string name="continue_to">បន្តទៅកាន់វគ្គសិក្សា to</string>
@@ -17,4 +24,20 @@
     <string name="software_engineering_des">យល់ដឹងពី៎ឥទ្ធិពលនៃវត្តជីវិតរបស់ការអភិវឌ្ឍន៍ software និងការអភិវឌ្ឍន៍ software</string>
     <string name="project_practicum">គម្រងអនុវត្តផ្ទាល់</string>
     <string name="practicum_des">Advanced hands-on course builds on the project managers previously acquired…</string>
+
+    <!--  Login Activity  -->
+    <string name="faculty_of_engineering">មហាវិទ្យាល័យវិស្វកម្ម</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">ចូលគណនី</string>
+    <string name="more_login_options">ជម្រើសចូលគណនីផ្សេងទៀត</string>
+    <string name="not_now">មិនទាន់ចង់ចូល</string>
+
+    <!--  Profile Activity  -->
+    <string name="tan_bunchhay">តាន់ ប៊ុនឆាយ</string>
+    <string name="major">ជំនាញ</string>
+    <string name="it_engineering">វិស្វកម្មបច្ចេកវិទ្យាព័តមាន</string>
+    <string name="gender">ភេទ</string>
+    <string name="male">ប្រុស</string>
+    <string name="_2820_tan_bunchha_rupp_edu_kh">2820.tan.bunchha@rupp.edu.kh</string>
 </resources>

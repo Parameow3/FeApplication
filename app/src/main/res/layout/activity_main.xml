@@ -3,18 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <FrameLayout
+        android:id="@+id/lytFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/main_activity"
         android:background="#F8F7F7"
         app:itemTextColor="#6B899B"
-        app:itemIconTint="#6B899B"/>
+        app:itemIconTint="#6B899B"
+        app:itemIconSize="32dp"
+        app:labelVisibilityMode="labeled"
+
+        />
 </LinearLayout>

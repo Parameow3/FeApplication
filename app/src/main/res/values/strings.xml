@@ -2,14 +2,14 @@
 
     <!--  Main Menu  -->
     <string name="home">Home</string>
-    <string name="course">Course</string>
+    <string name="course">Courses</string>
     <string name="chat">Chat</string>
     <string name="account">Account</string>
     <string name="more">More</string>
 
     <string name="app_name">My Application</string>
     <string name="hello_kon_khmer">Hello, Kon Khmer!</string>
-    <string name="search">Search ...</string>
+    <string name="search">Search …</string>
     <string name="continue_to">Continue to</string>
     <string name="mobile_dev_course">Mobile Dev. Course</string>
     <string name="_65_complete">65% Complete</string>
@@ -36,4 +36,5 @@
     <string name="gender">Gender</string>
     <string name="male">Male</string>
     <string name="_2820_tan_bunchha_rupp_edu_kh">2820.tan.bunchha@rupp.edu.kh</string>
+    <string name="this_is_home_fragment">This is home Fragment</string>
 </resources>
