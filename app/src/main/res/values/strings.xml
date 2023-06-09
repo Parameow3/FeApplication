@@ -1,4 +1,12 @@
 <resources>
+
+    <!--  Main Menu  -->
+    <string name="home">Home</string>
+    <string name="course">Course</string>
+    <string name="chat">Chat</string>
+    <string name="account">Account</string>
+    <string name="more">More</string>
+
     <string name="app_name">My Application</string>
     <string name="hello_kon_khmer">Hello, Kon Khmer!</string>
     <string name="search">Search ...</string>

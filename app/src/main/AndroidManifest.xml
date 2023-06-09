@@ -11,9 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
-        <activity android:name=".LoginActivity">
 
-        </activity>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".ProfileActivity" />
+
         <activity
             android:name=".WelcomeActivity"
             android:exported="true">
