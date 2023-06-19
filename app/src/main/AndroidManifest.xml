@@ -12,7 +12,7 @@
         android:icon="@drawable/fe"
         android:label="Faculty of  Engineering"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31"
         >
 

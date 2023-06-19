@@ -22,6 +22,5 @@
         app:itemIconTint="#6B899B"
         app:itemIconSize="32dp"
         app:labelVisibilityMode="labeled"
-
         />
 </LinearLayout>

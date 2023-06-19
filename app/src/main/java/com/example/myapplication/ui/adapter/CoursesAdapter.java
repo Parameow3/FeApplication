@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.api.model.Course;
 import com.example.myapplication.databinding.ViewHolderCourseBinding;
+import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -51,13 +52,17 @@ public class CoursesAdapter extends ListAdapter<Course, CoursesAdapter.CourseVie
     public void onBindViewHolder(@NonNull CourseViewHolder holder, int position) {
 
         Course item = getItem(position);
-
+        try {
+            holder.bind(item);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 
     public static class CourseViewHolder extends RecyclerView.ViewHolder {
         ViewHolderCourseBinding itemBinding;
-        Bitmap bitmap;
+
         public CourseViewHolder(ViewHolderCourseBinding itemBinding) {
             super(itemBinding.getRoot());
             this.itemBinding = itemBinding;
@@ -65,14 +70,10 @@ public class CoursesAdapter extends ListAdapter<Course, CoursesAdapter.CourseVie
 
         public void bind(Course course) throws IOException {
             // bind image to recycle view
-            InputStream in = new URL(course.getImageUrl()).openStream();
-            bitmap = BitmapFactory.decodeStream(in);
-            itemBinding.imgCourse.setImageBitmap(bitmap);
+            Picasso.get().load(course.getImageUrl()).into(itemBinding.imgCourse);
 
             // bind title to recycle view
             itemBinding.txtCourseTitle.setText(course.getTitle());
-
-            Log.e("[title]", course.getTitle());
 
             // bind description to recycle view
             itemBinding.txtCourseDes.setText(course.getDescription());

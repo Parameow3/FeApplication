@@ -65,7 +65,7 @@ public class CoursesFragment extends Fragment {
             @Override
             public void onResponse(Call<List<Course>> call, Response<List<Course>> response) {
                 if (response.isSuccessful()){
-
+                    Toast.makeText(getContext(), "Load Courses list Successful!", Toast.LENGTH_LONG).show();
                     showCourseList(response.body());
 
                 }else {
